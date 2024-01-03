@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { TodoProvider } from "./CONTEXTS";
 import { TodoForm, TodoItem } from "./COMPONENTS";
-import { json } from "react-router-dom";
 
 function App() {
   const [todos, setTodos] = useState([]);
