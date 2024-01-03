@@ -13,7 +13,10 @@ function TodoForm() {
 
   return (
     <>
-      <form onSubmit={add} className="flex rounded overflow-hidden mx-8">
+      <form
+        onSubmit={add}
+        className="flex rounded overflow-hidden mx-auto max-w-lg"
+      >
         <input
           type="text"
           value={todo}
@@ -21,9 +24,7 @@ function TodoForm() {
           className="w-full p-2 outline-none text-orange-600 text-xl tracking-wider placeholder:text-orange-700/60"
           placeholder="Write Todo..."
         />
-        <button
-          className="bg-green-500 shrink-0 p-2 tracking-wide text-xl"
-        >
+        <button className="bg-green-600 shrink-0 p-2 tracking-wide text-xl hover:bg-green-500 duration-200">
           Add Todo
         </button>
       </form>
