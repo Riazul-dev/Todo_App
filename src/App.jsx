@@ -41,8 +41,10 @@ function App() {
     <TodoProvider
       value={{ todos, addTodo, updateTodo, deleteTodo, toggleTodo }}
     >
-      <div className="min-h-screen bg-gray-600 text-white">
-        <h1 className="text-3xl text-center py-8">This is a Todo App</h1>
+      <div className="min-h-screen bg-gray-600 text-white px-4">
+        <h1 className="text-3xl font-semibold text-green-600 text-center py-8">
+          This is a Todo App
+        </h1>
         <div>
           <TodoForm />
         </div>
