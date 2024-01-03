@@ -12,7 +12,7 @@ function TodoForm() {
   };
 
   return (
-    <div>
+    <>
       <form onSubmit={add} className="flex rounded overflow-hidden mx-8">
         <input
           type="text"
@@ -27,7 +27,7 @@ function TodoForm() {
           Add Todo
         </button>
       </form>
-    </div>
+    </>
   );
 }
 
