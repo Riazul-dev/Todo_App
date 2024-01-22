@@ -16,7 +16,7 @@ function TodoItem({ todo }) {
     toggleTodo(todo.id);
   };
   return (
-    <div className="flex gap-2 bg-gray-800/40 p-4 w-full max-w-lg mx-auto mt-3 rounded shadow-md shadow-orange-300/20">
+    <div className="flex items-center gap-2 bg-gray-800/40 p-4 w-full max-w-lg mx-auto mt-3 rounded shadow-md shadow-orange-300/20">
       <input
         onChange={toggle}
         className="shrink-0 cursor-pointer"
